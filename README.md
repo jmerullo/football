@@ -21,14 +21,5 @@ We tokenized transcripts using spaCy. We then tag the dataset using ARK TweetNLP
 ## File naming convention
 All files are named by the following naming convention. `sports-bias-k.pkl` where `k` is the number of tokens included in the mention context on either side of a name mention.
 
-## How to use
-The dataset comes in the form of a pickled (serialized) [pandas](https://pandas.pydata.org/) data frame. Below is an example of importing the dataset in python:
-
-``` python
-import pickle
-import pandas as pd
-
-data = pickle.load(open('dataset.pkl','rb'))
-```
 ## More information
 For more information see our paper: [link to paper]
