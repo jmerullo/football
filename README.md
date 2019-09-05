@@ -12,14 +12,14 @@ In additions to the player mention context dataset, we include the raw transcrip
 
 ## How mentions are obtained
 
-We collect the mentions by taking k tokens before and after the player mention. For example if k=4 for the mention “this is a guy Jesse James does nothing but work”, the corresponding mention would be a list of tokens: [‘this’, ‘guy’, ‘does’, ‘nothing’, ‘but’, ‘work’]. Within our dataset we collect mentions with window sizes (k) of 5, 6, 8, 10, 15.
+We collect the mentions by taking k tokens before and after the player mention. For example if k=4 for the mention “this is a guy Jesse James does nothing but work”, the corresponding mention would be a list of tokens: [‘this’, ‘guy’, ‘does’, ‘nothing’, ‘but’, ‘work’]. Within our dataset we collect mentions with window sizes (k) of 5, 6, 8, 10, 15. Note that mention context windows that contain more than one player mention are omitted.
 
 ## Processing mentions
 
 We tokenized transcripts using spaCy. We then tag the dataset using ARK TweetNLP POS. Additionally, we use phrasemachine to identify all corpus noun phrases
 
 ## File naming convention
-All files are named by the following naming convention. `sports-bias-k.pkl` where `k` is the number of tokens included in the mention context on either side of a name mention.
+All files are named by the following naming convention. `sports-bias-k.json` where `k` is the number of tokens included in the mention context on either side of a name mention.
 
 ## More information
 For more information see our paper: [link to paper]
