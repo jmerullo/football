@@ -3,12 +3,12 @@
 ## Introduction
 
 This dataset contains transcripts of 1,455 full game broadcasts from the U.S. National Football League (NFL) and National Collegiate Athletic Association (NCAA) recorded between 1960 2019.
-Each row in the dataset contains the player name (first and last name), position, race, teams that the player has played on, year of the player mention, and the mention itself. The dataset is split into POS tagged, raw transcripts, and unprocessed.
+Each row in the dataset contains the player name (first and last name), position, race, teams that the player has played on, year of the player mention, and the mention itself.
 
 ## Contents
 1455 total games (601 NFL, 854 NCAA), 27,144,587 tokens. A total of 545,232 mentions of players labeled for position and name, of which 267,778 are also tagged for race (white, nonwhite). A total of 23,313 unique football players appear in the dataset (4,604 distinct players with race labeled).
 
-We also include the team roster data in json format split by league.
+In additions to the player mention context dataset, we include the raw_transcripts, as well as team roster data split by league.
 
 ## How mentions are obtained
 
