@@ -8,7 +8,7 @@ Each row in the dataset contains the player name (first and last name), position
 ## Contents
 1455 total games (601 NFL, 854 NCAA), 27,144,587 tokens. A total of 545,232 mentions of players labeled for position and name, of which 267,778 are also tagged for race (white, nonwhite). A total of 23,313 unique football players appear in the dataset (4,604 distinct players with race labeled).
 
-In additions to the player mention context dataset, we include the raw_transcripts, as well as team roster data split by league.
+In additions to the player mention context dataset, we include the raw transcripts as obtained from YouTube, as well as team roster data split by league.
 
 ## How mentions are obtained
 
@@ -21,14 +21,5 @@ We tokenized transcripts using spaCy. We then tag the dataset using ARK TweetNLP
 ## File naming convention
 All files are named by the following naming convention. `sports-bias-k.pkl` where `k` is the number of tokens included in the mention context on either side of a name mention.
 
-## How to use
-The dataset comes in the form of a pickled (serialized) [pandas](https://pandas.pydata.org/) data frame. Below is an example of importing the dataset in python:
-
-``` python
-import pickle
-import pandas as pd
-
-data = pickle.load(open('dataset.pkl','rb'))
-```
 ## More information
 For more information see our paper: [link to paper]
