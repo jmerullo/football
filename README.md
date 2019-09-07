@@ -8,7 +8,7 @@ Each row in the dataset contains the player name (first and last name), position
 ## Contents
 1455 total games (601 NFL, 854 NCAA), 27,144,587 tokens. A total of 545,232 mentions of players labeled for position and name, of which 267,778 are also tagged for race (white, nonwhite). A total of 23,313 unique football players appear in the dataset (4,604 distinct players with race labeled).
 
-In additions to the player mention context dataset, we include the raw transcripts as obtained from YouTube, as well as team roster data split by league.
+In additions to the player mention context dataset, we include the raw transcripts as obtained from YouTube, as well as team roster data split by league. Raw transcripts are uploaded in parts, however the data is available in full here: https://drive.google.com/drive/folders/1XEUq6mH3Xvde51nHm_IJx-hzKgF8PV7t?usp=sharing
 
 ## How mentions are obtained
 
