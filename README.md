@@ -8,13 +8,13 @@ Each row in the dataset contains the player name (first and last name), position
 ## Contents
 1455 total games (601 NFL, 854 NCAA), 27,144,587 tokens. A total of 545,232 mentions of players labeled for position and name, of which 267,778 are also tagged for race (white, nonwhite). A total of 23,313 unique football players appear in the dataset (4,604 distinct players with race labeled).
 
-In additions to the player mention context dataset, we include the raw transcripts as obtained from YouTube, as well as team roster data split by league. Raw transcripts are uploaded in parts, however the data is available in full here: https://drive.google.com/open?id=1V_z1XWmKNXfD0CxFCwyV-nZY2otNiaZH
+In additions to the player mention context dataset, we include the raw transcripts as obtained from YouTube, as well as team roster data split by league. Raw untagged transcripts are uploaded in parts, however the data is available in full here: https://drive.google.com/open?id=1V_z1XWmKNXfD0CxFCwyV-nZY2otNiaZH
 
 todo: clean up and add scripts for analysis experiments and preprocessing raw transcripts
 
 ## How mentions are obtained
 
-We collect the mentions by taking k tokens before and after the player mention. For example if k=4 for the mention “this is a guy Jesse James does nothing but work”, the corresponding mention would be a list of tokens: [‘this’, ‘guy’, ‘does’, ‘nothing’, ‘but’, ‘work’]. Within our dataset we collect mentions with window sizes (k) of 5, 6, 8, 10, 15. Note that mention context windows that contain more than one player mention are omitted.
+We collect the mentions by taking k tokens before and after the player mention. For example if k=4 for the mention “this is a guy Jesse James does nothing but work”, the corresponding mention would be a list of tokens: [‘this’, ‘guy’, ‘does’, ‘nothing’, ‘but’, ‘work’]. Within our dataset we collect mentions with window sizes (k) of 5, 6, 8, 10, 12, 15. Note that mention context windows that contain more than one player mention are omitted.
 
 ## Processing mentions
 
