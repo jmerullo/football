@@ -2,8 +2,10 @@
 
 ## Introduction
 
-This repository contains the FOOTBALL dataset, which is built from transcripts of 1,455 full game broadcasts from the U.S. National Football League (NFL) and National Collegiate Athletic Association (NCAA) recorded between 1960 and 2019. Additionally, it contains code to reproduce the analysis experiments in our associated EMNLP 2019 paper, [Investigating Sports Commentator Bias within a Large Corpus of American Football Broadcasts](https://arxiv.org/abs/1909.03343). Please download the dataset at this link:
-https://drive.google.com/file/d/15XVD0kumvPhJkwj20an2kwWCdL9w_cy7/view?usp=sharing To use it with our code, extract the zip file into this directory.
+This repository contains scripts to analyze and process the FOOTBALL dataset, which is built from transcripts of 1,455 full game broadcasts from the U.S. National Football League (NFL) and National Collegiate Athletic Association (NCAA) recorded between 1960 and 2019. To start, please download the dataset at the following link and extract the zip file into this directory:
+https://drive.google.com/file/d/15XVD0kumvPhJkwj20an2kwWCdL9w_cy7/view?usp=sharing 
+
+The dataset and associated experiments are described fully in our associated EMNLP 2019 paper, [Investigating Sports Commentator Bias within a Large Corpus of American Football Broadcasts](https://arxiv.org/abs/1909.03343).
 
 ## Dataset contents
 FOOTBALL contains 1455 total games (601 NFL, 854 NCAA) whose transcripts amount to 27,144,587 tokens in total (tokenized with spaCy). Within these transcripts, we identify 545,232 mentions of players labeled with their position and name, of which 267,778 are also tagged for race (white, nonwhite). A total of 23,313 unique football players appear in the dataset (4,604 who we were able to label with race information). In additions to the player mention context dataset, we include the raw transcripts obtained from YouTube, as well as team roster data split by league. 
