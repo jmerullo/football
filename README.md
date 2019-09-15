@@ -14,6 +14,7 @@ Each entry in our player mention dataset has a `label` and a `mention`. The `lab
 
 ## Code contents
 Please see the `analysis` subdirectory for scripts and instructions on how to replicate our experiments.
+`extract_mentions.py` provides example code for how to find mentions in the tagged transcripts for future experiments (e.g. adjusting window size).
 
 ## Citation
 If you use this dataset or code for your research, please cite:
