@@ -11,3 +11,4 @@ find games/*ark | parallel 'python arc_postproc.py -fn {} -K 5 -phrases'
 
 # downsample
 ls games/*phrases*  | xargs cat | shuf | head -1000000 > sample.csv
+python ll_model.py -fn sample.csv
