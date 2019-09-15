@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# run this in a python3 venv. Once you load the venv, do $pip install -r requirements.txt to load dependencies
+
 # get games in connl format
 python games2connl.py
 
@@ -11,4 +13,6 @@ find games/*ark | parallel 'python arc_postproc.py -fn {} -K 5 -phrases'
 
 # downsample
 ls games/*phrases*  | xargs cat | shuf | head -1000000 > sample.csv
+
+# run model
 python ll_model.py -fn sample.csv
