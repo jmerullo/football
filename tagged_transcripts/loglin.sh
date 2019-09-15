@@ -8,3 +8,6 @@ find games/*connl | grep -v ark | parallel -j 5 --eta "./ark-tweet-nlp-0.3.2/run
 
 # get phrases
 find games/*ark | parallel 'python arc_postproc.py -fn {} -K 5 -phrases'
+
+# downsample
+ls games/*phrases*  | xargs cat | shuf | head -1000000 > sample.csv
