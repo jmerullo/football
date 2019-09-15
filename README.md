@@ -19,7 +19,7 @@ Please see the `analysis` subdirectory for scripts and instructions on how to re
 If you use this dataset or code for your research, please cite:
 
     @inproceedings{football2019,
-      Author = {Jack Merullo and Luke Yeh and Abram Handler and Alvin Grissom II and Brendan O'Connor and Mohit Iyyer},
+      Author = {Jack Merullo and Luke Yeh and Abram Handler and Alvin {Grissom II} and Brendan O'Connor and Mohit Iyyer},
       Booktitle = {Empirical Methods in Natural Language Processing},
       Year = "2019",
       Title = {Investigating Sports Commentator Bias within a Large Corpus of American Football Broadcasts.}
