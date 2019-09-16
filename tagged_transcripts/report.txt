@@ -1,0 +1,20 @@
+top white:
+long time,official,free safety,clean,penalty marker,sixth,safety blitz,solid,offensive coordinator,regular season,bill belichick,little bit,automatic,last couple,offensive line,bad,much time,middle linebacker,yard touchdown pass,first quarter
+top OT:
+false,offensive,second year,young quarterback,nice block,good block,offensive line,ball game,draft choice,upset,great block,full,pro bowl,florida state,interesting,cold,free agent,least,good pass,possible
+top TE:
+quiet,nice block,second year,flat,athletic,whole lot,middle of the field,dead,fifth,pass interference,extra point,other way,more time,offside,second touchdown,double,complete,knee injury,touchdown reception,unable
+top DT:
+red zone,first guy,little bit,defensive line,careful,defensive,offensive,ball game,defensive coordinator,personal,twominute warning,sixth,draft choice,second time,screen pass,line of scrimmage,former,free agent,difficult,michigan state
+top DE:
+offside,defensive end,defensive line,good pressure,first career,lot of pressure,defensive,football player,other side,foul,incredible,excellent job,long time,good move,particular,aware,fortunate,pass rush,personal,big guy
+top DB:
+great coverage,strong safety,free safety,safety blitz,pass interference,secondary,good coverage,guilty,first downs,first guy,talented,national football,pro bowler,second interception,bottom of your screen,face mask,football league,defensive,automatic,same thing
+top QB:
+plenty of time,florida state,comfortable,good pressure,accurate,athletic,audible,aware,impressive,backup quarterback,lot of time,lot of pressure,good field,nice job,good field position,hot,michigan state,field position,critical,second interception
+top RB:
+big hole,more yards,great block,screen pass,dangerous,pass rush,physical,penn state,longest,alltime,healthy,1st,effective,ball carrier,yard touchdown,total,first round,average,florida state,ball game
+top LB:
+middle linebacker,face mask,yard pickup,personal,entire,forced,draft choice,lot of pressure,michigan state,free agent,football player,worried,many times,aggressive,foul,athletic,pro bowl,goal line,active,special teams
+top WR:
+double coverage,total,wide receivers,amazing,complete,touchdown reception,second touchdown,middle of the field,first touchdown,yard touchdown pass,extra point,top,incomplete,double,deep,penalty flag,alltime,yard touchdown,great effort,good protection

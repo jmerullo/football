@@ -30,8 +30,18 @@ positions  = set(positions)
 etoks1 = [i for i in set(dt["e"]) if type(i) == str]
 etoks2 = [j for i in etoks1 for j in i.split(" ")]
 
+def find_ngrams(input_list, n):
+    return zip(*[input_list[i:] for i in range(n)])
+
 stops = set(etoks2) | set(etoks1)
 stops = stops | set([i.replace("\n", "").replace("_", " ") for i in open("stopwords.txt")])
+
+stops2 = [i.replace("\n", "").replace("_", " ").split() for i in open("stopwords.txt") if "_" in i]
+
+stops2 = set([" ".join(j) for o in stops2 for j in find_ngrams(o,2)])
+
+stops = stops | stops2
+
 vocab = set(i for i in dt["w"].tolist() if i not in stops)
 
 dt = dt[dt["w"].isin(vocab)]

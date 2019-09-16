@@ -1,4 +1,3 @@
-
 garrido
 fiers
 cousineau
@@ -45730,3 +45729,12 @@ deloise
 zaccario
 jarrion
 rufran
+tight
+receiver
+quarterback
+tight_end
+running_back
+wide_receiver
+defensive_back
+offensive_lineman
+defensive_lineman
