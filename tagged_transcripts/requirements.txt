@@ -1,4 +1,4 @@
-certifi==2019.6.16
+certifi==2022.12.7
 nltk==3.4.5
 numpy==1.17.2
 pandas==0.25.1
